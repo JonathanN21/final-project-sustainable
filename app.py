@@ -18,6 +18,7 @@ app.jinja_env.globals['current_time'] = dt.datetime.now()
 @app.route('/index')
 def index():
     data = {
+        "CO2":0,
         "ingredients":model.dict_food
     }
     

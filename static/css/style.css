@@ -3,5 +3,26 @@
 
 .color{
     font-family: 'Lora', serif;
-    color:rgb(195, 195, 218);
+    color:rgb(17, 128, 54);
+}
+
+.marginbelow{
+    margin-bottom:40px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: white; /* Green */
+  color: black;
 }

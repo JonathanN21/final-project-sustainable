@@ -1,4 +1,5 @@
-dict_food = {'Beef(Herd)':60,'lamb':24,'cheese':21,'beef(dairy)':21,'chocolate':9,'coffee':17,'prawns(farmed)':12,'Palm oil':8,'Pork':7,'Poultry meat':6,'olive oil':6,'Fish(farmed)':5.0,'Eggs':4.5,'Fish(wild catch)':3,'milk':3,'Cane sugar':3,'groundnuts':2.5,'Wheat and rye':1.4,'tomatoes':1.4,'Maize(corn)':1,'cassava':1.0,'soymilk':0.9,'peas':0.9,'bananas':0.7,'root vegetables':0.4,'apples':0.3,'citrus fruits':0.3,"nuts":0.3}
+dict_food = {'Beef (Herd)':60,'Lamb':24,'Cheese':21,'Beef (Dairy)':21,'Chocolate':9,'Coffee':17,'Prawns (Farmed)':12,'Palm Oil':8,'Pork':7,'Poultry Meat':6,'Olive Oil':6,'Fish (Farmed)':5.0,'Eggs':4.5,'Fish (Wild Catch)':3,'Milk':3,'Cane Sugar':3,'Groundnuts':2.5,'Wheat and Rye':1.4,'Tomatoes':1.4,'Maize (Corn)':1,'Cassava':1.0,'Soymilk':0.9,'Peas':0.9,'Bananas':0.7,'Root Vegetables':0.4,'Apples':0.3,'Citrus Fruits':0.3,'Nuts':0.3}
+ingredients = sorted(dict_food.keys())
 
 def convert_food_to_CO2(food,kilos):
     if kilos =="":
