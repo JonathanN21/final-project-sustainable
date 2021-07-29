@@ -1,1 +1,7 @@
 /* Write custom CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.color{
+    font-family: 'Lora', serif;
+    color:rgb(195, 195, 218);
+}
